@@ -49,7 +49,7 @@ def log_cmd(args):
                 print(row)
         else:
             for i, row in enumerate(reader):
-                if i == args.log_num:
+                if i == int(args.log_num):
                     break
                 print(row)
 
